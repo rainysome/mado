@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>마도</title>
+		<style>
+			html, body
+			{
+				margin: 0;
+				height: 100%;
+				overflow: hidden;
+			}
+			.container
+			{
+				clear: both;
+			}
+			.txt
+			{
+				width: 20%;
+				float: left;
+				text-align: center;
+				background: lightpink;
+				font-size: 20px;
+				border: 0;
+			}
+		</style>
+
+		<script>
+			//window.onresize = function() { Resize(); }
+		</script>
+	
+		<script src="./source.js"></script>
+	</head>
+	
+	<body>
+		<canvas id="canvas">
+			브라우저가 <code>&lt;canvas&gt;</code> 요소를 지원하지 않습니다.
+        </canvas>
+	</body>
+	
+	<script>
+        /*
+		function main()
+		{
+            f = new Foo("hello");
+            canvas = document.getElementById("canvas");
+            w = document.body.clientWidth;
+            h = document.body.clientHeight;
+            scale = ("devicePixelRatio" in window) ? window.devicePixelRatio : 1;
+            canvas.width = w * scale;
+            canvas.height = h * scale;
+            canvas.style.width = w + "px";
+            canvas.style.height = h + "px";
+            ctx = canvas.getContext("2d");
+            ctx.setTransform(scale, 0, 0, scale, 0, 0);
+            ctx.fillStyle = "red";
+            ctx.font = "48pt serif";
+            let a = [];
+            let b = [1, 2];
+            a = b.slice();
+            ctx.fillText(scale, 10, 60);
+            b[0] = 3;
+            ctx.fillText(a, 10, 120);
+        }
+        */
+		main();
+	</script>
+</html>
